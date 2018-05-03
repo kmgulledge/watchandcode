@@ -1,8 +1,13 @@
+/*
 
-makeSandwichWith
+Psuedo Code
+
+makeSandwichWith_______
     Get one slice of bread.
-    Add
+    Add _________
     Put a slice of bread on top.
+
+*/
 
 function makeSandwichWith(filling) {
     Get one slice of bread;
@@ -11,3 +16,5 @@ function makeSandwichWith(filling) {
 }
 
 makeSandwichWith('ham')
+
+console.log('My Todos', todos);

@@ -1,4 +1,4 @@
-var todos - ['item 1', 'item 2', 'item 3']
+var todos = ['item 1', 'item 2', 'item 3'];
 
 // It should have a function to display todos.
 function displayTodos() {
@@ -13,7 +13,7 @@ function addTodo(todo) {
 
 // It should have a function to change todos.
 function changeTodo(position, newValue) {
-    todos(position) = newValue;
+    todos[position] = newValue;
     displayTodos();
 }
 
